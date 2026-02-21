@@ -1,0 +1,115 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+@media (max-width :1600px){
+    .container{
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+@media (max-width: 1300px) {
+    .container{
+        grid-template-columns: repeat(5,1fr);
+    }  
+}
+@media (max-width :1000px){
+    .container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        grid-template-columns: repeat(3,auto);
+    }  
+}
+@media (max-width :575px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 450px) {
+    .container{
+        grid-template-columns: 1fr;
+    }  
+}
+
+    
+.border{
+    padding-top: 70px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 180px;
+    margin-bottom: 20px;
+}
+.Athelitic{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product{
+    margin-left: 10px;
+    width: 90%;
+    padding-bottom: 20px;
+}
+.product p {
+    height: 60px;
+    margin-bottom: 5px;
+}
+.product .rating img{
+    width: 100px;
+    margin-right: 7px;
+}
+.product .rating{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 7px;
+} 
+.product .rating span{
+    color: rgb(1, 124, 182);
+    cursor: pointer;
+    font-size: 18px;
+}
+.product .rating span:hover{
+    color: rgb(63, 19, 3);
+}
+.product-cost{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.select-number select{
+    background-color: rgb(240, 240, 240);
+    padding: 5px 7px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px rgb(213, 217, 217);;
+    border: 1px solid rgb(213, 217, 217);;
+    cursor: pointer;
+}
+.product button{
+    background-color: rgb(247, 202, 0);;
+    width: 100%;
+    padding: 8px;
+    border-radius: 31px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px;
+    margin-top: 10px;
+}
+.product button:hover{
+    background-color: rgb(235, 212, 8);;
+}
+

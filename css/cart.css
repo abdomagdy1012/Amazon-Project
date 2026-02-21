@@ -1,0 +1,21 @@
+.logo{
+    width: 180px;
+    color: black;
+}
+.logo-anchor{
+    display: inline-block;
+    padding: 9px 7px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+}
+.logo-anchor:hover{
+    border-color: white;
+}
+.logo img{
+    width: 100px;
+    color: black;
+}
+.logo .amazon-mobile{
+    display: none;
+}
